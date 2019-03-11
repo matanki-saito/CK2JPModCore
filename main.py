@@ -251,7 +251,7 @@ def main():
         out_file_path=_(".", "out", "ck2_core_mod"),
         mod_file_name="jpmod_core",
         mod_zip_path=core_mod_zip_file_path,
-        mod_title_name="JPMOD Main1: Font, UI",
+        mod_title_name="JPMOD Main 1: Font, UI",
         mod_tags={"Translation", "Localisation"},
         mod_image_file_path="title.jpg",
         mod_user_dir_name="JLM")
