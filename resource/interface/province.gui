@@ -91,6 +91,14 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
+		guiButtonType = {
+			name = "show_region_info"
+			position = { x=242 y=13 }
+			quadTextureSprite ="GFX_show_region_info_icon"
+			Orientation = "UPPER_LEFT"
+			clicksound = generic_click_04
+		}
+		
 		iconType =
 		{
 			name ="county_crown"
@@ -111,21 +119,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 						
-		guiButtonType = {
-			name = "show_region_info"
-			position = { x=242 y=13 }
-			quadTextureSprite ="GFX_show_region_info_icon"
-			Orientation = "UPPER_LEFT"
-			clicksound = generic_click_04
-		}
-
-		guiButtonType = {
-			name = "button_close"
-			position = { x = 320 y = 6 }
-			quadTextureSprite ="GFX_main_close_button"
-			shortcut = "ESCAPE"
-		}
-		
 		guiButtonType = {
 			name = "make_crown_focus"
 			position = { x=216 y=13 }

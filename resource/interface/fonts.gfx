@@ -12,13 +12,6 @@ spriteTypes = {
 }
 
 bitmapfonts = {
-
- 
-# Use "common" as main font.
-# Only use "small" or "small_bold" in exceptional cases
-# use "headline" for all page headlines
-
-
 	bitmapfont = {
 		name = "headline"
 #		fontname = "headline"
@@ -36,26 +29,6 @@ bitmapfonts = {
 			P = { 255 0 255 }
 			L = { 195 176 145 }
 		}
-	}
-
-	bitmapfont = {
-		name = "headline_small"
-#		fontname = "headline_small"
-		fontname = "sourceHanSerif18bold"
-		color = 0xffffffff
-
-		colorcodes = {
-			W = { 255 255 255 }
-			B = { 100 100 255 }
-			G = { 50 255 50 }
-			R = { 255 50 50 }
-			b = { 0 0 0 }
-			g = { 176 176 176 }
-			Y = { 255 189 0 }
-			P = { 255 0 255 }
-			L = { 195 176 145 }
-		}
-
 	}
 
 
@@ -85,132 +58,6 @@ bitmapfonts = {
 
 	}
 	
-	bitmapfont = {
-		name = "ToolTip_Font"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffffff
-
-		colorcodes = {
-			W = { 255 255 255 }
-			B = { 100 100 255 }
-			G = { 50 255 50 }
-			R = { 255 50 50 }
-			b = { 0 0 0 }
-			g = { 176 176 176 }
-			Y = { 255 189 0 }
-			P = { 255 0 255 }
-			Z = { 3 122 23 }
-			M = { 255 250 117 }
-			K = { 113 5 5 }
-			C = { 55 65 17 }
-			F = { 111 62 9 }
-			L = { 195 176 145 }
-		}
-	}
-
-	bitmapfont = {
-		name = "bookantiqua16"
-#		fontname = "bookantiqua16"
-		fontname = "yumincho16"
-		color = 0xff000000
-
-		colorcodes = {
-			W = { 255 255 255 }
-			B = { 100 100 255 }
-			G = { 50 255 50 }
-			R = { 255 50 50 }
-			b = { 0 0 0 }
-			g = { 176 176 176 }
-			Y = { 255 189 0 }
-			P = { 255 0 255 }
-			L = { 195 176 145 }
-		}
-
-	}
-
-	bitmapfont = {
-		name = "bookantiqua16bold"
-#		fontname = "bookantiqua16bold"
-		fontname = "yumincho16bold"
-		color = 0xff000000
-
-		colorcodes = {
-			W = { 255 255 255 }
-			B = { 100 100 255 }
-			G = { 50 255 50 }
-			R = { 255 50 50 }
-			b = { 0 0 0 }
-			g = { 176 176 176 }
-			Y = { 255 189 0 }
-			P = { 255 0 255 }
-			L = { 195 176 145 }
-		}
-
-	}
-
-	bitmapfont = {
-		name = "common_white"
-#		fontname = "common"
-		fontname = "yumincho20"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffffff
-
-		colorcodes = {
-			W = { 255 255 255 }
-			B = { 100 100 255 }
-			G = { 50 255 50 }
-			R = { 255 50 50 }
-			b = { 0 0 0 }
-			g = { 176 176 176 }
-			Y = { 255 189 0 }
-			P = { 255 0 255 }
-			L = { 195 176 145 }
-		}
-
-	}	
-	bitmapfont = {
-		name = "common_bold"
-#		fontname = "common_bold"
-		fontname = "yumincho20bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xff000000
-
-		colorcodes = {
-			W = { 255 255 255 }
-			B = { 100 100 255 }
-			G = { 50 255 50 }
-			R = { 255 50 50 }
-			b = { 0 0 0 }
-			g = { 176 176 176 }
-			Y = { 255 189 0 }
-			P = { 255 0 255 }
-			L = { 195 176 145 }
-		}
-
-	}
-	
-	bitmapfont = {
-		name = "common_bold_white"
-#		fontname = "common_bold"
-		fontname = "yumincho20bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffffff
-
-		colorcodes = {
-			W = { 255 255 255 }
-			B = { 100 100 255 }
-			G = { 50 255 50 }
-			R = { 255 50 50 }
-			b = { 0 0 0 }
-			g = { 176 176 176 }
-			Y = { 255 189 0 }
-			P = { 255 0 255 }
-			L = { 195 176 145 }
-		}
-
-	}
 
 	bitmapfont = {
 		name = "small"
@@ -298,28 +145,6 @@ bitmapfonts = {
 
 	}
 
-	bitmapfont = {
-		name = "small_button_txt"
-#		fontname = "small_button_txt"
-		fontname = "Meiryo14"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xff000000
-
-
-		colorcodes = {
-			W = { 255 255 255 }
-			B = { 100 100 255 }
-			G = { 50 255 50 }
-			R = { 255 50 50 }
-			b = { 0 0 0 }
-			g = { 176 176 176 }
-			Y = { 255 189 0 }
-			P = { 255 0 255 }
-			L = { 195 176 145 }
-		}
-
-	}
-	
 	bitmapfont = {
 		name = "tahoma_60"
 #		fontname = "Mapfont"
@@ -615,95 +440,23 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "decorative_color"
 #		fontname = "decorative_color"
-		fontname = "GenkaiMincho100"
-#		color = 0xffffffff
-		color = 0xffff0000
-	}
-
-	bitmapfont = {
-		name = "Main_24"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
+		fontname = "GenkaiMincho100"		
 		color = 0xffffffff
-	}
-
-	bitmapfont = {
-		name = "Main_24_black"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xff000000
-	}
-
-	bitmapfont = {
-		name = "pie_headline_20"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xff000000
-	}
-
-	bitmapfont = {
-		name = "messagelog"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffff99
 	}
 
 	bitmapfont = {
 		name = "Main_16"
 #		fontname = "crap"
 		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
+		fontname_gui_scaled = "YuMincho18Demi"		
+#		fontname_gui_scaled = "vic_18"
 		color = 0xffffffff
 	}
-
-	bitmapfont = {
-		name = "Main_16_white_bold"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffffff
-	}
-
-	bitmapfont = {
-		name = "Main_16_black"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xff000000
-	}
-
 
 	bitmapfont = {
 		name = "Main_14"
 #		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffffff
-	}
-	bitmapfont = {
-		name = "Main_14_plain"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xff000000
-	}
-
-
-	bitmapfont = {
-		name = "Main_14_grey"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffbbbbbb
-	}
-
-	bitmapfont = {
-		name = "Main_16_plain"
-#		fontname = "crap"
+#		fontname_gui_scaled = "vic_18"
 		fontname = "yugothic13bold"
 		fontname_gui_scaled = "YuMincho18Demi"
 		color = 0xffffffff
@@ -711,79 +464,9 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "Main_14_black"
 #		fontname = "crap"
+#		fontname_gui_scaled = "vic_18"
 		fontname = "yugothic13bold"
 		fontname_gui_scaled = "YuMincho18Demi"
 		color = 0xff000000
 	}
-	bitmapfont = {
-		name = "Main_14_red"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffff0000
-	}
-	bitmapfont = {
-		name = "Main_14_bold"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffffff
-	}
-	bitmapfont = {
-		name = "Main_14_orange"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffbb00
-	}
-
-
-
-	bitmapfont = {
-		name = "garamond_14"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffffff
-	}
-	bitmapfont = {
-		name = "garamond_14_bold"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffffff
-	}
-
-	bitmapfont = {
-		name = "garamond_14_bold_orange"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xffffc000
-	}
-
-	bitmapfont = {
-		name = "ledger"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "YuMincho18Demi"
-		color = 0xff000000
-	}
-
-	bitmapfont = {
-		name = "ledger_headline"
-#		fontname = "crap"
-		fontname = "yugothic13bold"
-		fontname_gui_scaled = "yugothic13bold"
-		color = 0xff000000
-	}
-
-##	bitmapfont = {
-##		name = "messagelog"
-##		fontname = "crap"
-##		color = 0xffffff99
-##	}
-
-
-	
 }
