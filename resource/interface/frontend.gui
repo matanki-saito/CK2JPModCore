@@ -5961,13 +5961,6 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
-#		iconType =	{
-#			name ="savegame_to_old"
-#			spriteType = "GFX_combat_end_char_dead"
-#			position = { x= 190 y = 5 }
-#			Orientation = "UPPER_LEFT"
-#		}
-		
 		instantTextBoxType = {
 			name = "title"
 			position = { x = 53 y = 4 }
@@ -5978,7 +5971,7 @@ guiTypes = {
 			maxWidth = 220
 			maxHeight = 18	
 			fixedsize = yes
-		
+			alwaystransparent = yes
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -5992,7 +5985,7 @@ guiTypes = {
 			maxWidth = 240
 			maxHeight = 18	
 			fixedsize = yes
-		
+			alwaystransparent = yes
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -6020,6 +6013,13 @@ guiTypes = {
 			spriteType = "GFX_random_world_save"
 			position = { x = 273 y = 3 }
 			pdx_tooltip = "RANDOM_WORLD_SAVE_TOOLTIP"
+		}
+		
+		iconType = {
+			name = "highlighted_ruler_icon"
+			spriteType = "GFX_highlighted_ruler_save"
+			position = { x = 270 y = 4 }
+			pdx_tooltip = "HIGHLIGHTED_RULER_SAVE_TOOLTIP"
 		}
 		
 		guiButtonType = 
