@@ -35,6 +35,13 @@ guiTypes = {
 		}
 		
 		guiButtonType =	{
+			name = "button_close"
+			position = { x = 320 y = 6 }
+			quadTextureSprite ="GFX_main_close_button"
+			shortcut = "ESCAPE"
+		}
+		
+		guiButtonType =	{
 			name = "button_raise_levy"
 			position = { x=180 y=354 }
 			quadTextureSprite ="GFX_military_troop_strip_1"	
