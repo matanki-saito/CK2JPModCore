@@ -1106,7 +1106,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "single_player_button"
-					position = { x = 335 y = -160 }
+					position = { x = -465 y = -110 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_NEW_GAME"
 					buttonFont = "vic_22"
@@ -1116,7 +1116,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "load_game_button"
-					position = { x = 335 y = -110 }
+					position = { x = -465 y = -60 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_LOAD_GAME"
 					buttonFont = "vic_22"
@@ -1126,7 +1126,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "nudge_button"
-					position = { x = 335 y = -10 }
+					position = { x = -465 y = -10 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "NUDGE"
 					buttonFont = "vic_22"
@@ -1256,7 +1256,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "single_player_button"
-					position = { x = 335 y = -110 }
+					position = { x = -465 y = -110 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_NEW_GAME"
 					buttonFont = "vic_22"
@@ -1266,7 +1266,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "load_game_button"
-					position = { x = 335 y = -60 }
+					position = { x = -465 y = -60 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "FE_LOAD_GAME"
 					buttonFont = "vic_22"
@@ -1276,7 +1276,7 @@ guiTypes = {
 				guiButtonType = 
 				{
 					name = "nudge_button"
-					position = { x = 335 y = -10 }
+					position = { x = -465 y = -10 }
 					quadTextureSprite ="GFX_big_button_176"	
 					buttonText = "NUDGE"
 					buttonFont = "vic_22"
@@ -5430,6 +5430,13 @@ guiTypes = {
 					Orientation = "LOWER_RIGHT"
 				}
 
+				iconType = {
+					name = "bronzeman_icon"
+					spriteType = "GFX_bronzeman_icon"
+					position = { x = -210 y = -80 }
+					Orientation = "LOWER_RIGHT"
+				}
+
 				windowType = {
 					name = "play_button_positioning_window"
 					position = { x = -211 y = -81 }
@@ -5998,6 +6005,12 @@ guiTypes = {
 		iconType = {
 			name = "ironman_icon"
 			spriteType = "GFX_ironman_icon"
+			position = { x = 273 y = 18 }
+		}
+		
+		iconType = {
+			name = "bronzeman_icon"
+			spriteType = "GFX_bronzeman_icon"
 			position = { x = 273 y = 18 }
 		}
 		
@@ -6608,8 +6621,8 @@ guiTypes = {
 			position = {x = 5000 y = -5000 }
 			name = "remote_tab_label"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 0
-			maxHeight = 0
+			maxWidth = 64
+			maxHeight = 18
 			text = "FE_REMOTE"
 			font = "vic_18"
 			format = centre
