@@ -574,8 +574,14 @@ guiTypes = {
 		fullScreen = no
 		Orientation = "CENTER"
 		
-		iconType =
-		{
+		guiButtonType = {
+			name = "background"
+			quadTextureSprite = "GFX_menu_area"
+			position = { x= 95 y = 11 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType = {
 			name ="menu"
 			spriteType = "GFX_menu"
 			position = { x= 89 y = 11 }
@@ -789,8 +795,8 @@ guiTypes = {
 				position = {x = 5000 y = -5000 }
 				name = "remote_tab_label"
 				borderSize = {x = 0 y = 0}	
-				maxWidth = 0
-				maxHeight = 0
+				maxWidth = 64
+				maxHeight = 18
 				text = "FE_REMOTE"
 				font = "vic_18"
 				format = centre
