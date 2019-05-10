@@ -19,6 +19,18 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
+		editBoxType = {
+			name = "province_name"
+			position = { x = 72 y = 5 }
+			textureFile = ""
+			font = "vic_22bold"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			size = { x=300 y=32 }  # { x=156 y=32 }
+			cursor = { x=4 y=1 }
+			Orientation = "UPPER_LEFT"
+		}
+
 		guiButtonType = {
 			name = "make_capital"
 			quadTextureSprite = "GFX_province_make_capitol"
@@ -171,18 +183,6 @@ guiTypes = {
 			name ="county_crown"
 			spriteType = "GFX_shield_crown_strip_medium"
 			position = { x= 12 y = -1 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		editBoxType = {
-			name = "province_name"
-			position = { x = 72 y = 5 }
-			textureFile = ""
-			font = "vic_22bold"
-			borderSize = {x = 4 y = 4}
-			text = ""
-			size = { x=300 y=32 }  # { x=156 y=32 }
-			cursor = { x=4 y=1 }
 			Orientation = "UPPER_LEFT"
 		}
 						
