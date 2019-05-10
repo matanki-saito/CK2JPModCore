@@ -6976,19 +6976,19 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "text"
-			position = { x = 105 y = 300 }
+			position = { x = 90 y = 300 }  # issue-9 { x = 105 y = 300 }
 			font = "vic_22"
 			text = "WELCOME_TEXT"
-			maxWidth = 528
+			maxWidth = 558 # 528 
 			maxHeight = 150
 		}
 		
 		instantTextBoxType = {
 			name = "first_play_recommend"
-			position = { x = 105 y = 390 }
+			position = { x = 90 y = 390 } # issue-9 { x = 105 y = 390 }
 			font = "vic_22"
 			text = "WELCOME_FIRST_PLAY_RECOMMEND"
-			maxWidth = 528
+			maxWidth = 558 # 528 
 			maxHeight = 100
 		}
 		
