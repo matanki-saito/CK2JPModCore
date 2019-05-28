@@ -5990,22 +5990,15 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name = "bronzeman_icon"
-			spriteType = "GFX_bronzeman_icon"
-			position = { x = 273 y = 18 }
-		}
-		
-		iconType = {
 			name = "ironman_icon"
 			spriteType = "GFX_ironman_icon"
 			position = { x = 273 y = 18 }
 		}
 		
 		iconType = {
-			name = "highlighted_ruler_icon"
-			spriteType = "GFX_highlighted_ruler_save"
-			position = { x = 270 y = 4 }
-			pdx_tooltip = "HIGHLIGHTED_RULER_SAVE_TOOLTIP"
+			name = "bronzeman_icon"
+			spriteType = "GFX_bronzeman_icon"
+			position = { x = 273 y = 18 }
 		}
 		
 		iconType = {
@@ -6020,6 +6013,13 @@ guiTypes = {
 			spriteType = "GFX_random_world_save"
 			position = { x = 273 y = 3 }
 			pdx_tooltip = "RANDOM_WORLD_SAVE_TOOLTIP"
+		}
+		
+		iconType = {
+			name = "highlighted_ruler_icon"
+			spriteType = "GFX_highlighted_ruler_save"
+			position = { x = 270 y = 4 }
+			pdx_tooltip = "HIGHLIGHTED_RULER_SAVE_TOOLTIP"
 		}
 		
 		guiButtonType = 
@@ -6475,6 +6475,60 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
+	}
+
+
+	### story entry
+	windowType = {
+		name = "story_entry"
+		backGround=""
+		position = { x=0 y=0 }	
+		size = { x=360 y= 64 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no	
+
+		
+		guiButtonType = {
+			name = "button"
+			position = { x = 0 y = 0 }
+			quadTextureSprite ="GFX_standard_button_148"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonText = ""
+			buttonFont = "vic_18"
+		}
+
+		
+	
+
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 65 y = 1 }
+			format = right
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 4 y = 0}
+			text = "UI_MISSING_TEXT"	
+			maxWidth = 200
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"	
+		}
+		instantTextBoxType = {
+			name = "desc"
+			position = { x = 65 y = 17 }
+			format = right
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 4 y = 0}
+			text = "UI_MISSING_TEXT"	
+			maxWidth = 200
+			maxHeight = 32
+			Orientation = "UPPER_LEFT"	
+		}
 	}
 	
 	### DLC ICON ENTRY
