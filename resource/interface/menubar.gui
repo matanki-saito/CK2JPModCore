@@ -787,11 +787,13 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "remote_tab"
+#				position = { x = 118  y = -26 }
 				position = { x = 5000  y = -5000 }
 				quadTextureSprite ="GFX_settings_tab_new"
 			}		
 			
 			instantTextBoxType={
+#				position = {x = 117 y = -16 }
 				position = {x = 5000 y = -5000 }
 				name = "remote_tab_label"
 				borderSize = {x = 0 y = 0}	

@@ -1285,6 +1285,7 @@ guiTypes = {
 				
 				checkboxType = {
 					name = "autosavetocloud_checkbox"
+#					position = { x = 32 y = 161 }
 					position = { x = 5000 y = 5000 }
 					quadTextureSprite = "GFX_checkbox_default"
 					buttonText = ""

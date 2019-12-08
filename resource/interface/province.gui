@@ -19,6 +19,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
+		# fix order 
 		editBoxType = {
 			name = "province_name"
 			position = { x = 72 y = 5 }

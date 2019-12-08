@@ -57,7 +57,7 @@ bitmapfonts = {
 		}
 
 	}
-	
+
 
 	bitmapfont = {
 		name = "small"
@@ -144,12 +144,11 @@ bitmapfonts = {
 		}
 
 	}
-
+	
 	bitmapfont = {
 		name = "tahoma_60"
 #		fontname = "Mapfont"
 		fontname = "aoyagireisyo60"
-#		fontname = "crap"
 		color = 0xff333333
 	}
 
