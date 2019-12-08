@@ -431,7 +431,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "participants_strength"
 			position = { x = 314 y = 557 }
-			font = "vic_18"
+			font = "vic_22"
 			text = "UI_MISSING_TEXT"
 			format = center
 			maxWidth = 145

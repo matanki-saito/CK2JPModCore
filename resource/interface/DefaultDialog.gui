@@ -293,11 +293,13 @@ guiTypes = {
 		
 		instantTextBoxType = {
 				name = "Description"
+#				position = { x = 52 y = 80 }
 				position = { x = 40 y = 80 }
 				textureFile = ""
 				font = "vic_22_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"	
+#				maxWidth = 388
 				maxWidth = 405
 				maxHeight = 250	
 				format = centre
@@ -365,11 +367,13 @@ guiTypes = {
 		
 		instantTextBoxType = {
 				name = "Description"
+#				position = { x = 52 y = 80 }
 				position = { x = 40 y = 80 }
 				textureFile = ""
 				font = "vic_22_black"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"	
+#				maxWidth = 388
 				maxWidth = 405
 				maxHeight = 250	
 				format = centre
@@ -505,6 +509,8 @@ guiTypes = {
 			font = "decorative"
 			borderSize = {x = 0 y = 0}
 			text = ""	
+#			maxWidth = 75
+#			maxHeight = 75
 			maxWidth = 120
 			maxHeight = 120
 			format = left
@@ -887,11 +893,14 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "decorative_letter"
+#			position = { x = 0 y = 0 }
 			position = { x = 10 y = 0 }
 			textureFile = ""
 			font = "decorative_color"
 			borderSize = { x = 0 y = 0 }
 			text = ""	
+#			maxWidth = 75
+#			maxHeight = 75
 			maxWidth = 120
 			maxHeight = 120
 			format = left
