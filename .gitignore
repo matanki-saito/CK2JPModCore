@@ -108,3 +108,5 @@ venv.bak/
 mod
 tmp
 out
+credentials.json
+settings.yaml
