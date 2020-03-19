@@ -1,6 +1,8 @@
 name: Python package
 
 on:
+  repository_dispatch:
+    types: [webhook_trigger]
   push:
     branches:
       - master
