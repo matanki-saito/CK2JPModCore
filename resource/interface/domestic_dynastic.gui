@@ -1690,7 +1690,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 20
+				maxWidth = 25 # 20
 				maxHeight = 20
 				format = right
 			}
@@ -1718,7 +1718,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 20
+				maxWidth = 25  # 20
 				maxHeight = 20	
 				format = right
 			}
@@ -1746,7 +1746,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 20
+				maxWidth = 25  # 20
 				maxHeight = 20	
 				format = right
 			}
@@ -1774,7 +1774,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 20
+				maxWidth = 25  # 20
 				maxHeight = 20	
 				format = right
 			}
@@ -1802,7 +1802,7 @@ guiTypes = {
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "UI_MISSING_TEXT"
-				maxWidth = 20
+				maxWidth = 25  # 20
 				maxHeight = 20	
 				format = right
 			}
